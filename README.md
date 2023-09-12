@@ -18,7 +18,10 @@ Abra o terminal e insira os seguintes comandos:
 	1. Esse comando é fundamental para ativar o ambiente virtual.
 4. pip install --upgrade pip
 	1. Esse comando atualizará o pip
-5. pip install -r requirements.txt
+5. cd diretório da pasta do nmr filter
+	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_t
+6. pip install -r requirements.txt
+7jupyter n. pip install jupyter notebook
 
 No linux pode ser necessário modificar o arquivo nmrfilter.sh para um executável com chmod a+x nmrfilter.sh
 
@@ -27,13 +30,14 @@ Se o python-igraph apresentar uma mensagem de erro dê uma olhada nessa soluçã
 Anaconda
 --------
 Abra o terminal e execute os seguintes passos:
-1. conda update -n base -c defaults conda
-	1. Esse comando atualiza o anaconda. É recomendável sempre o manter atualizado.
-2. conda create -c conda-forge -n nmrfilter_env
+1. conda create -c conda-forge -n nmrfilter_env
 	1. Assim é criada uma pasta chamada "nmrfilter_env" que terá as bibliotecas funcionais.
-3. conda activate nmrfilter_env
-4. conda install pip
+2. conda activate nmrfilter_env
+3. conda install pip
+4. cd diretório da pasta do nmr filter
+	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_t
 5. pip install -r requirements.txt
+6. pip install jupyter notebook
 
 Utilizando o Jupyter notebook
 ----------------------
@@ -43,13 +47,11 @@ Se você quiser executar o código no jupyter notebook:
 Ubuntu:
 1. cd nmrfilter_env/bin
 2. source activate
-3. jupyter nbextension enable --py widgetsnbextension
-4. jupyter notebook /home/gabrielaaferreira/Desktop/GitHub/
+3. jupyter notebook /home/gabrielaaferreira/Desktop/GitHub/
 
 Anaconda:
 1. conda activate nmrfilter_env
-2. jupyter nbextension enable --py widgetsnbextension
-3. jupyter notebook \Users\gabrielaaferreira\Desktop\Laabio(IPPN)
+2. jupyter notebook \Users\gabrielaaferreira\Desktop\Laabio(IPPN)
 
 IMPORTANTE: Executando o Código
 =======
