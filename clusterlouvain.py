@@ -1,3 +1,4 @@
+import os
 from igraph import *
 import configparser
 import csv
