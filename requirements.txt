@@ -13,4 +13,3 @@ torch
 tqdm
 igraph
 louvain
-jupyter notebook
