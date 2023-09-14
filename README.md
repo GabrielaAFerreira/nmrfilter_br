@@ -48,7 +48,7 @@ Abra o terminal e execute os seguintes passos:
 Utilizando o Jupyter notebook
 ----------------------
 
-Se você quiser executar o código no jupyter notebook:
+Se você quiser executar o código no jupyter notebook você pode acompanhar o seguinte exemplo:
 
 Ubuntu:
 1. cd nmrfilter_env/bin
@@ -60,7 +60,7 @@ Anaconda:
 2. jupyter notebook \Users\gabrielaaferreira\Desktop\Laabio(IPPN)\nmrfilter_br
 
 Após isso em ambos os sistemas deve abrir uma aba no navegador correspondende ao jupyter notebook. Dentro dela navegue na pasta do nmrfilter_br:
-1. Configue nmrproc.properties com o datadir dos seus projetos
+1. Configue a linha datadir no arquivo nmrproc.properties com o diretório da sua pasta de projetos (Exemplo WINDOWS: datadir=C:\\Users\\gabrielaaferreira\\Desktop\\Laabio(IPPN)\\nmrfilter-br\\nmrfilterprojects)
 2. Execute o nmrfilter.ipynb para ter acesso ao programa
 
 IMPORTANTE: Executando o Código
