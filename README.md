@@ -2,16 +2,20 @@ Esse código foi utilizado no artigo https://pubs.rsc.org/en/content/articleland
 
 Esse fork possui como objetivo apenas explicar de maneira mais detalhada a instalação
 
+Obrigada aos amigos Paulo e Shikari por terem testado e procurado por erros. 
+
 
 Instalação
 ============
 
 Para o NMRFilter funcionar é necessário ter a versão Java 1.8 ou superior, assim como a versão Python 3 (3.11 funcionava até o presente momento). 
 É muito importante trabalhar com diretórios sem espaços. O programa não reconhece usuários como PC Lab, mas funciona bem com pclab.
+
 As demais bibliotecas para instalação estão contidas no requirements.txt
+
 Para uma instalação completa recomenda-se acompanhar os seguintes passos:
 
-Linux/Ubuntu
+Ubuntu
 ---
 Abra o terminal e insira os seguintes comandos:
 1. python3 -m venv nmrfilter_env
@@ -21,7 +25,7 @@ Abra o terminal e insira os seguintes comandos:
 4. pip install --upgrade pip
 	1. Esse comando atualizará o pip
 5. cd diretório da pasta do nmr filter
-	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_t
+	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_br
 6. pip install -r requirements.txt
 7jupyter n. pip install jupyter notebook
 
@@ -29,7 +33,7 @@ No linux pode ser necessário modificar o arquivo nmrfilter.sh para um executáv
 
 Se o python-igraph apresentar uma mensagem de erro dê uma olhada nessa solução: https://stackoverflow.com/questions/34113151/how-to-install-igraph-for-python-on-windows
 
-Anaconda
+Windows/Anaconda
 --------
 Abra o terminal e execute os seguintes passos:
 1. conda create -c conda-forge -n nmrfilter_env
@@ -37,7 +41,7 @@ Abra o terminal e execute os seguintes passos:
 2. conda activate nmrfilter_env
 3. conda install pip
 4. cd diretório da pasta do nmr filter
-	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_t
+	1. Exemplo: \Users\gabrielaaferreira\Desktop\Laabio(IPPN)\nmrfilter_br
 5. pip install -r requirements.txt
 6. pip install jupyter notebook
 
@@ -49,11 +53,15 @@ Se você quiser executar o código no jupyter notebook:
 Ubuntu:
 1. cd nmrfilter_env/bin
 2. source activate
-3. jupyter notebook /home/gabrielaaferreira/Desktop/GitHub/
+3. jupyter notebook /home/gabrielaaferreira/Desktop/GitHub/nmrfilter_br
 
 Anaconda:
 1. conda activate nmrfilter_env
-2. jupyter notebook \Users\gabrielaaferreira\Desktop\Laabio(IPPN)
+2. jupyter notebook \Users\gabrielaaferreira\Desktop\Laabio(IPPN)\nmrfilter_br
+
+Após isso em ambos os sistemas deve abrir uma aba no navegador correspondende ao jupyter notebook. Dentro dela navegue na pasta do nmrfilter_br:
+1. Configue nmrproc.properties com o datadir dos seus projetos
+2. Execute o nmrfilter.ipynb para ter acesso ao programa
 
 IMPORTANTE: Executando o Código
 =======
