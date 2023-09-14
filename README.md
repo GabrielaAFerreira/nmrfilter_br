@@ -6,7 +6,9 @@ Esse fork possui como objetivo apenas explicar de maneira mais detalhada a insta
 Instalação
 ============
 
-Para o NMRFilter funcionar é necessário ter a versão Java 1.8 ou superior, assim como a versão Python 3 (3.11 funcionava até o presente momento). As demais bibliotecas para instalação estão contidas no requirements.txt
+Para o NMRFilter funcionar é necessário ter a versão Java 1.8 ou superior, assim como a versão Python 3 (3.11 funcionava até o presente momento). 
+É muito importante trabalhar com diretórios sem espaços. O programa não reconhece usuários como PC Lab, mas funciona bem com pclab.
+As demais bibliotecas para instalação estão contidas no requirements.txt
 Para uma instalação completa recomenda-se acompanhar os seguintes passos:
 
 Linux/Ubuntu
