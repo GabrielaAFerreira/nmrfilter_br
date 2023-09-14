@@ -27,7 +27,7 @@ Abra o terminal e insira os seguintes comandos:
 5. cd diretório da pasta do nmr filter
 	1. Exemplo: /home/gabrielaaferreira/Desktop/nmrfilter_br
 6. pip install -r requirements.txt
-7jupyter n. pip install jupyter notebook
+7. pip install jupyter notebook
 
 No linux pode ser necessário modificar o arquivo nmrfilter.sh para um executável com chmod a+x nmrfilter.sh
 
