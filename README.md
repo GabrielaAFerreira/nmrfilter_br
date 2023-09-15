@@ -2,7 +2,7 @@ Esse código foi utilizado no artigo https://pubs.rsc.org/en/content/articleland
 
 Esse fork possui como objetivo apenas explicar de maneira mais detalhada a instalação
 
-Obrigada aos amigos Paulo e Shikari por terem testado e procurado por erros. 
+Obrigada aos amigos Paulo, Shikari e Nuclear por terem testado e procurado por erros. 
 
 
 Instalação
